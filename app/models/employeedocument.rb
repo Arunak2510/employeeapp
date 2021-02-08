@@ -1,0 +1,2 @@
+class Employeedocument < ApplicationRecord
+end
