@@ -25,6 +25,8 @@
         <td><%= link_to 'Show', employeedetail %></td>
         <td><%= link_to 'Edit', edit_employeedetail_path(employeedetail) %></td>
         <td><%= link_to 'Destroy', employeedetail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                <td><%= link_to 'Back', back_employeedetail_path(employeedetail) %></td>
+
       </tr>
     <% end %>
   </tbody>
